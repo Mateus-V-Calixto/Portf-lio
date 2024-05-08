@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*#EFECE3*/
+
+/*
+https://color.adobe.com/pt/search?q=Vintage&t=term
+#F2E4BB #D9C2A7 #F2E2CE #F2ECE4 #594A3C
+*/
+:root{
+    --bg-color: #F2ECE4;
+    --text-color: #000000;
+    --text-secundary: #fff;
+}
+
+a{
+    color: var(--text-color);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    background-color: #594A3C;
+    padding: 20px 0;
+    color: var(--text-secundary);
+}
+
+header a {
+    color: var(--text-secundary);
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+nav a{
+    margin-left: 35px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+a.active{
+    border: 2px white solid;
+    padding: 5px 9px;
+    border-radius: 10px;
+}
+
+
+
+.container{
+    max-width: 1300px;
+}
